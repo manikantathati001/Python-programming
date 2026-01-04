@@ -1,0 +1,7 @@
+s=input("enter the character:")
+if s.isupper():
+    print("uppercase alphabet")
+elif s.islower():
+    print("lowercase alphabet")
+else:
+    print("not an alphabet")

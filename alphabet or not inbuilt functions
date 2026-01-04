@@ -1,0 +1,7 @@
+def my_function(s):
+    if s.isalpha():
+        return "alphabet"
+    else:
+        return "not alphabet"
+s=input("enter the character:")
+print(my_function(s))

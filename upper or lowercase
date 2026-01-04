@@ -1,0 +1,7 @@
+s=input("enter the character:")
+if s>='a'and s<='z':
+    print("lowercase alphabet")
+elif s>='A'and s<='Z':
+    print("uppercase alphabet")
+else:
+    print("not an alphabet")

@@ -1,0 +1,9 @@
+def my_function(s):
+    if s.isupper():
+        return "uppercase alphabet"
+    elif s.islower():
+        return "lowercase alphabet"
+    else:
+        return "not an alphabet"
+s=input("enter the character:")
+print(my_function(s))
